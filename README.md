@@ -4,3 +4,4 @@ Omaloodud klass koos ülekaetava meetodiga alamklassis. Näitprogramm illustreer
 Ideid:
 Õpikunäited eri liiki loomade häälitsustega
 Geomeetrilised kujundid pindala- ja ruumalaarvutusega.
+
