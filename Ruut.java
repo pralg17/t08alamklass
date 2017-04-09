@@ -6,6 +6,7 @@ public class Ruut {
         this.kulg = kulg;
     }
 
+
     public double pindala() {
         return kulg * kulg;
     }
