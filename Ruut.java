@@ -1,8 +1,8 @@
-public class Ruut {
+class Ruut {
 
-    double kulg;
+    private double kulg;
 
-    public Ruut(double kulg) {
+    Ruut(double kulg) {
         this.kulg = kulg;
     }
 

@@ -1,7 +1,7 @@
-public class Ristkulik {
+class Ristkulik {
 
-    double alus1;
-    double alus2;
+    private double alus1;
+    private double alus2;
 
     public Ristkulik(double alus1, double alus2) {
         this.alus1 = alus1;

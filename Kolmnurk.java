@@ -1,9 +1,9 @@
-public class Kolmnurk {
+class Kolmnurk {
 
-    double alus;
-    double kaatet1;
-    double kaatet2;
-    double korgus;
+    private double alus;
+    private double kaatet1;
+    private double kaatet2;
+    private double korgus;
 
     public Kolmnurk(double alus, double kaatet1, double kaatet2, double korgus) {
         this.alus = alus;
