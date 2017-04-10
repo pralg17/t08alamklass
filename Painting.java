@@ -5,4 +5,8 @@ class Painting extends Artist{
 		this.painting = painting;
 		this.genre = genre;
 	}
+	
+	public void changePainting(String newPainting){
+		this.painting = newPainting;
+	}
 }
