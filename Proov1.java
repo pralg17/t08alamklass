@@ -1,8 +1,8 @@
 public class Proov1{
   public static void main(String[] args){
     Autod auto1=new Autod();
- 		auto1.mark="Mazda";
- 		auto1.mudel="626";
+ 	  auto1.mark="Mazda";
+ 	  auto1.mudel="626";
 
     Autod auto2=new Autod();
     auto2.mark="Peugeot";
