@@ -1,21 +1,21 @@
 public class App {
     public static void main(String[] args){
 
-        Isik isik1 = new Isik();
-        isik1.lisaisik("Oscar August", "Heinla", "Eestlane", 24);
+        Sportlane isik1 = new Sportlane();
+        Isik isik2 = new Isik();
+        isik2.Isik("Oscar August", "Heinla", "Eestlane", 24);
 
+        isik1.Sportlane("Oscar August", "Heinla", "Eestlane", 24, "Kettaheide", "London MM KULD");
 
-        Sportlane sport1 = new Sportlane();
-        sport1.lisaSport("Kettaheide", "London MM KULD");
-
-        System.out.println(sport1.toString());
         System.out.println(isik1.toString());
+        System.out.println(isik2.toString());
     }
 
 }
 /*
-PS C:\Users\oscar\Desktop\Kool\JAVA\Klassid\video_järgi> java App
+PS C:\Users\oscar\Desktop\Kool\JAVA\Klassid\t08alamklass> java App
 
+Nimi: Oscar August Heinla
 Spordiala: Kettaheide
 Parim aavutus: London MM KULD
 
