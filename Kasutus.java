@@ -8,3 +8,9 @@ public class Kasutus{
     }
 
 }
+
+/*
+henry:t08alamklass henrysavi$ java Kasutus
+Silindri täispindala on: 12.566370614359172 ruutpsentimeetrit.
+Ringi pindala on: 3.141592653589793 ruutsentimeetrit.
+ */
