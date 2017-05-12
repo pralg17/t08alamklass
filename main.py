@@ -10,20 +10,18 @@ class Main(object):
         self.running = True
         self.timer = 0
         while self.running:
-            self.timer += 1
             self.update()
 
     def update(self):
-
-        if self.timer % 200 == 0:
-            if self.player.x != self.enemy.x:
-                self.player.moveRight()
-                self.enemy.moveLeft()
-            else:
-                self.enemy.attack(self.player)
-            if self.player.dead:
-                self.running = False
-                print("game over!")
+        
+        if self.player.x != self.enemy.x:
+            self.player.moveRight()
+            self.enemy.moveLeft()
+        else:
+            self.enemy.attack(self.player)
+        if self.player.dead:
+            self.running = False
+            print("game over!")
 
 if __name__ == '__main__':
     Main()
